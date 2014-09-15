@@ -14,6 +14,7 @@
 *                           changed api: ionocorr()
 *           2011/11/08 1.2  enable snr mask for single-mode (rtklib_2.4.1_p3)
 *           2012/12/25 1.3  add variable snr mask
+//zhoumingzhi
 *-----------------------------------------------------------------------------*/
 #include "rtklib.h"
 
@@ -45,6 +46,7 @@ static double varerr(const prcopt_t *opt, double el, int sys)
 static double gettgd(int sat, const nav_t *nav)
 {
     int i;
+    int j
     for (i=0;i<nav->n;i++) {
         if (nav->eph[i].sat!=sat) continue;
         return CLIGHT*nav->eph[i].tgd[0];
