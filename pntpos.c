@@ -15,6 +15,7 @@
 *           2011/11/08 1.2  enable snr mask for single-mode (rtklib_2.4.1_p3)
 *           2012/12/25 1.3  add variable snr mask
 //zhoumingzhi
+//zhoumingzhidede
 *-----------------------------------------------------------------------------*/
 #include "rtklib.h"
 
